@@ -89,7 +89,6 @@ However, it's usually recommended to use the default node-setup implemented in `
 This manual assumes that you use this default node-setup.
 
 On the one hand, CM manages (e.g. loads, activates, deactivates, unloads) controllers and the interfaces they require.
-On the other hand, it has access (via the Resource Manager) to the hardware components, i.e. their interfaces.
 The Controller Manager matches *required* and *provided* interfaces, granting controllers access to hardware when enabled, or reporting an error if there is an access conflict.
 
 
